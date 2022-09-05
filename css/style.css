@@ -1,0 +1,47 @@
+:root{
+    --bs-blackL:#161616;
+    --bs-blackD:#121212;
+    --bs-orange:#d16527;
+}
+
+a{text-decoration: none;}
+
+ul li{list-style: square;}
+
+.bg-darkL{
+    background-color: var(--bs-blackL);
+}
+.bg-darkD{
+    background-color: var(--bs-blackD);
+}
+
+.bg-orange{
+    background-color: var(--bs-orange);
+}
+
+.path{
+    clip-path: polygon(15% 0, 100% 0%, 100% 75%, 85% 100%, 0% 100%, 0 25%);
+
+}
+.text-orange{
+    color: #d16527;
+}
+
+.img{
+    background: url(../images/luxury-car-at-the-service-station-for-vehicle-deta-2021-09-01-12-14-52-utc.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    
+}
+.w-80{
+    width:90%;
+}
+
+#bg{
+    background: url(../images/chuttersnap-gts_Eh4g1lk-unsplash.jpg);
+    height:450px;
+    background-size: 100% 100%;
+}
+.none{
+    list-style: none;
+}
